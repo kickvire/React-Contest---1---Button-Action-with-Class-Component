@@ -14,7 +14,7 @@ class App extends Component {
   render() {
     return (
       <div id="main">
-        <button id="btn" onClick={this.showText}>
+        <button id="click" onClick={this.showText}>
           Click
         </button>
         {this.state.isClicked && (
